@@ -1,0 +1,67 @@
+<script>
+$('#btn-volver').on('click', function() {
+    $('#box-change').load('log-in-menu.html');
+    return false;
+});
+</script>
+<body> <!--     BODY     -->
+<main> <!-- MAIN -->
+<div class="container"><!-- PASS RECOVER -->
+<form>
+    <h3 class="mb-4">Registro de usuario</h3>
+<!--R--><div class="form-row">
+            <div class="form-group col-12 col-md-6">
+                <label for="inputName">Nombre y Apellido /</br>Razón Social</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="form-group col-12 col-md-6">
+                    <label for="inputCuit" class="mt-md-4">CUIT / CUIL</label>
+                    <input type="number" class="form-control" id="inputCuit">
+            </div>
+        </div>
+<!--R--><div class="form-row border-top pt-2">
+            <div class="form-group col-12 col-md-12">
+                <label for="inputDomicilio">Domicilio</label>
+                <input type="text" class="form-control" id="inputDomicilio" placeholder="Calle">
+            </div>
+            <div class="form-group col-12 col-md-3">
+                <label for="inputAltura">Numero</label>
+                <input type="number" class="form-control" id="inputAltura" placeholder="Altura">
+            </div>
+            <div class="form-group col-12 col-md-4">
+                <label for="inputPiso">Piso</label>
+                <input type="text" class="form-control" id="inputPiso">
+            </div>
+            <div class="form-group col-12 col-md-4">
+                <label for="inputDepto">Depto</label>
+                <input type="text" class="form-control" id="inputDepto">
+            </div>
+            <div class="form-group col-12 col-md-8">
+                <label for="inputLocalidad">Localidad</label>
+                <input type="text" class="form-control" id="inputLocalidad">
+            </div>
+            <div class="form-group col-12 col-md-4">
+                <label for="inputCP">Codigo Postal</label>
+                <input type="number" class="form-control" id="inputCP">
+            </div>
+        </div>
+<!--R--><div class="form-row border-top pt-2">
+            <div class="form-group col-12">
+                <label for="inputEmail">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="form-group col-12 col-md-6">
+                <label for="inputCont">Contraseña</label>
+                <input type="password" class="form-control" id="inputCont">
+            </div>
+            <div class="form-group col-12 col-md-6">
+                <label for="inputContConfirm">Repita Contraseña</label>
+                <input type="password" class="form-control" id="inputContConfirm">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button id="btn-volver" type="button" class="btn btn-danger ml-2">Volver</button>
+        </div>
+</form>
+</div><!-- PASS RECOVER -->
+</main><!-- MAIN -->
+</body> <!-- BODY -->

@@ -1,0 +1,82 @@
+<script>
+$('#btn-bl-detalles').on('click', function(){
+    $('#central').load('detalles-bl.html')
+})
+</script>
+<body>
+<div class="container transparent rounded-lg ">
+    <p class="h2 text-white pt-3 pb-2 border-bottom">DETALLE DEL CARRITO</p>
+<div class="row">
+    <div class="col-md-4 p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">CONTRATANTE</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary">AGENCIA MARITIMA BRINGS SA</p>
+    </div>
+    <div class="col-md-4 p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">CODIGO</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary"><a id="btn-bl-detalles" href="#">HDMUARAU1847499</a></p>
+    </div>  
+    <div class="col-md-auto p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">DESCRIPCION</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary">Exportacion</p>
+    </div>
+</div>  
+<div class="row">
+    <div class="col-md-5 p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">CUIT</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary">30-71615604-0</p>
+    </div>
+    <div class="col-md-5 p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">RAZON SOCIAL</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary">SAMLOG SRL</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-3 p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">CONDICION</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary">Contado</p>
+    </div>
+    <div class="col-lg-3 col-md-4 p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">IMPORTE USD</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary">3.946,95</p>
+    </div>
+    <div class="col-lg-3 col-md-4 p-2 m-md-1">
+        <p class="p-3 h5 border-bottom border-secondary mb-0 text-danger bg-white rounded-top">IMPORTE ARS</p>
+        <p class="p-3 h6 mb-0 rounded-bottom alert-secondary">169.718,85</p>
+    </div>
+</div>
+</div>
+<!-- RESUMEN -->
+<div class="container transparent rounded-lg mt-3 pb-1 table-responsive">
+    <p class="h2 text-white pt-3 pb-2 border-bottom mb-0">RESUMEN DEL CARRITO</p>
+<table class="table bg-white rounded-lg">
+    <thead class="alert-danger">
+        <tr>
+        <th scope="col"></th>
+        <th scope="col">CONCEPTOS</th>
+        <th scope="col">TOTAL USD</th>
+        <th scope="col">TOTAL PESOS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row"></th>
+        <td>Total Consultas</td>
+        <td>3.9463,95</td>
+        <td>169.718,75</td>
+        </tr>
+        <tr>
+        <th scope="row"></th>
+        <td>Servicio de Cobranza</td>
+        <td></td>
+        <td>363,00</td>
+        </tr>
+        <tr>
+        <th scope="row"></th>
+        <td class="semibold-p-font">TOTAL A PAGAR ARS</td>
+        <td></td>
+        <td class="semibold-p-font">$ 170.081,85</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</body>

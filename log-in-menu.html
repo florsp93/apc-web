@@ -1,0 +1,51 @@
+<script>
+$('#btn-ingresar').on('click', function() {
+    window.location.replace('index.html')
+    return false;
+});
+$('#forg-pass').on('click', function() {    
+    $('#box-change').load('pass-recover.html')
+    return false;
+});
+$('#register').on('click', function() {    
+    $('#box-change').load('sign-in.html')
+    return false;
+});
+</script>
+<body>
+<form action="/action_page.php">
+    <div class="form-group col-md-12 roboto-font">
+        <label class="h3" for="email">CUIT/CUIL</label>
+        <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group col-md-12 roboto-font text-white">
+        <label class="h3" for="pwd">CLAVE</label>
+        <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox"> Recuerdame</label>
+    </div>                    
+    <button id="btn-ingresar" type="button" class="btn btn-danger mb-1">Ingresar</button>
+<div class="dropdown-divider pb-2"></div>
+    <div class="d-flex flex-column align-items-start">
+        <button type="button" id="forg-pass"class="btn light-grey btn-block mb-2">Olvido su clave?</button>
+        <button type="button" id="register" class="btn light-grey btn-block mb-2">Registrarse</button>
+        <button type="button" class="btn light-grey btn-block mb-2" data-toggle="modal" data-target="#myModal">Video tutorial Registro</button>
+    <!-- MODAL TUTORIAL REGISTRO -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <video id="mivideo" class="video-responsive"> <source src="/imgs/videos/TutorialRegistrarse2.mp4" autoplay loop/ type="video/mp4"\>
+                        <source src="/imgs/videos/TutorialRegistrarse2.mp4" type="video/mp4">Tu navegador no implementa el elemento</video>
+                    </div>
+                    <div class="modal-footer justify-content-center ">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- MODAL TUTORIAL REGISTRO -->
+    </div>
+</form>
+</body>

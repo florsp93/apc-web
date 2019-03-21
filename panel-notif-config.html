@@ -1,0 +1,25 @@
+<script>
+$('#btn-volver').on('click', function() {
+    $('#central').load('btn-menu-gestion.html');
+    return false;
+});
+</script>
+<body> <!--     BODY     -->
+<main> <!-- MAIN -->
+<div class="container transparent rounded-lg p-3 text-white col-12 col-md-8">
+    <p class="roboto-font border-bottom display-4 pb-2">Configuracion de Notificaciones</p>
+    <p class="roboto-font text-danger h2">General</p>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Recibir Notificaciones</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+            <option value="1">Activado</option>
+            <option value="2">Desactivado</option>
+        </select>
+    </div>
+    <button type="button" class="btn btn-danger mb-1 mr-2">Aceptar</button>
+    <button id="btn-volver" type="button" class="btn btn-light mb-1">Volver</button>
+</div>
+</main><!-- MAIN -->
+</body> <!-- BODY -->

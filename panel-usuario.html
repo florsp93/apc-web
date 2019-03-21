@@ -1,0 +1,29 @@
+<script>
+$('#btn-volver').on('click', function() {
+    $('#central').load('btn-menu-gestion.html')
+});
+</script>
+<body class="montserrat-font pb-5"> <!--     BODY     -->
+<main> <!-- MAIN -->
+<div class="container transparent col-md-6 rounded-lg p-3 text-white"><!-- PASS RECOVER -->
+<form class="font-weight-bold" action="/action_page.php">
+    <p class="roboto-font border-bottom pb-2 display-4">Panel de Usuario</p>
+    <p class="roboto-font text-danger h2">Cambiar contraseña</p>
+        <div class="form-group h4 col-md-8">
+            <label for="pwd">Contraseña Actual</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group h4 col-md-8">
+            <label for="pwd2">Nueva Contraseña</label>
+            <input type="password" class="form-control" id="pwd2">
+        </div>            
+        <div class="form-group h4 col-md-8">
+            <label for="pwd3">Confirmar Nueva Contraseña</label>
+            <input type="password" class="form-control" id="pwd3">
+        </div>   
+    <button type="button" class="btn btn-danger mb-1 mr-2">Aceptar</button>
+    <button id="btn-volver" type="button" class="btn btn-light mb-1">Volver</button>
+</form>
+</div><!-- PASS RECOVER -->
+</main><!-- MAIN -->
+</body> <!-- BODY -->

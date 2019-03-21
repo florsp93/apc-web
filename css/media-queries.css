@@ -1,0 +1,29 @@
+@media (min-width: 750px) {
+    .row-margin {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 800px) and (orientation: portrait){   
+    .col-fixed-size {
+        width: 240px;
+        margin: 7px;
+    }
+}
+@media (max-height: 420px) and (orientation: landscape) {
+    .col-fixed-size {
+        width: 250px;
+        margin: 7px;
+    }
+}
+@media (min-width: 1220px) {
+    .cont-fixed-size {
+        width: 1300px;
+        margin: 7px;
+    }
+}
+@media (max-width: px) and (orientation: landscape) {
+    .col-fixed-size {
+        width: 250px;
+        margin: 7px;
+    }
+}

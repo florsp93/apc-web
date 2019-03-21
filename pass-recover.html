@@ -1,0 +1,27 @@
+<script>
+$('#btn-volver').on('click', function() {
+    $('#box-change').load('log-in-menu.html');
+    return false;
+});
+</script>
+</head>
+<body class="montserrat-font pb-5"> <!--     BODY     -->
+<main> <!-- MAIN -->
+<div class="container"><!-- PASS RECOVER -->
+    <form action="/action_page.php">
+        <h3 class="roboto-font border-bottom">Recupero de clave</h3>
+        <p>Ingrese su Usuario y su Email y se la enviaremos.</p>
+            <div class="form-group col-md-8 roboto-font">
+                <label for="email">CUIT/CUIL</label>
+                <input type="number" class="form-control" id="email">
+            </div>
+            <div class="form-group col-md-8 roboto-font text-white">
+                <label for="pwd">EMAIL</label>
+                <input type="email" class="form-control" id="pwd">
+            </div>             
+        <button type="button" class="btn btn-primary mb-1">Aceptar</button>
+        <button id="btn-volver" type="button" class="btn btn-danger mb-1">Volver</button>
+    </form>
+</div><!-- PASS RECOVER -->
+</main><!-- MAIN -->
+</body> <!-- BODY -->
