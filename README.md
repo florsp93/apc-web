@@ -1,3 +1,4 @@
-A SPA demo made for an foreign trade company, with Bootstrap and a litle of JavaScript.
+Este es un demo que disene para una empresa de comercio exterior que queria actualizar su interfaz grafica.
+La desarrolle con Bootstrap y le di algunas funcionalidades con JavaScript.
 
-Link to demo --> https://apc-web.florenciaspina93.now.sh/log-in.html
+Link demo → https://apc-web.florenciaspina93.now.sh/log-in.html
